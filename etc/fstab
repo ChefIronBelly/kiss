@@ -1,0 +1,12 @@
+#
+# /etc/fstab: static file system information
+#
+# <file system>        <dir>     <type>    <options>                        <dump> <pass>
+
+/dev/sdb1   /         ext4      defaults                         0      1
+
+# the following entries are required for proper system operation
+devpts                 /dev/pts  devpts    noexec,nosuid,gid=tty,mode=0620  0      0
+shm                    /dev/shm  tmpfs     defaults                         0      0
+
+# End of file
