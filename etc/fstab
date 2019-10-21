@@ -5,8 +5,10 @@
 
 UUID="8dd4da4e-82c1-4bcf-8d7d-214b3fe8fd86"	 /      ext4    defaults	 0      1
 UUID="505c088f-b441-453e-8b57-f8bb624e7910"	none	swap	sw	0	0 
+
+# commented out, done in the init 10/21
 # the following entries are required for proper system operation
-devpts                 /dev/pts  devpts    noexec,nosuid,gid=tty,mode=0620  0      0
-shm                    /dev/shm  tmpfs     defaults                         0      0
+#devpts                 /dev/pts  devpts    noexec,nosuid,gid=tty,mode=0620  0      0
+#shm                    /dev/shm  tmpfs     defaults                         0      0
 
 # End of file
