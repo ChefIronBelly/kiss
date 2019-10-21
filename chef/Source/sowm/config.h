@@ -13,10 +13,11 @@ const char* volup[]   = {"amixer", "sset", "Master", "5%+",         0};
 const char* volmute[] = {"amixer", "sset", "Master", "toggle",      0};
 const char* colors[]  = {"bud", "/chef/Pictures/Wallpapers", 0};
 const char* surf[]    =	{"firefox",	    0}; 
+const char* quit[]    = {"pkill", "xinit"};
 
 static struct key keys[] = {
     {MOD,      XK_q,   win_kill,   {0}},
-    {MOD,      XK_c,   win_center, {.i = 0}},
+    {MOD,      XK_c,   win_center, {0}},
     {MOD,      XK_f,   win_fs,     {0}},
     {Mod1Mask, XK_Tab, win_next,   {0}},
 
@@ -32,7 +33,7 @@ static struct key keys[] = {
     {0,   XF86XK_MonBrightnessDown, run, {.com = bridown}},
 
     {MOD|ShiftMask, XK_f, run, {.com = surf}},
-
+    {MOD|ShiftMask, XK_q, run, {.com = quit}}, 
     {MOD,           XK_1, ws_go,     {.i = 1}},
     {MOD|ShiftMask, XK_1, win_to_ws, {.i = 1}},
     {MOD,           XK_2, ws_go,     {.i = 2}},
