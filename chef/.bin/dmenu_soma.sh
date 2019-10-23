@@ -5,7 +5,7 @@
 
 selection="";
 
-if [ "$(pgrep mpg123)" ] ; then
+if [ "$(pgrep mpv)" ] ; then
         #pop.sh "All your sound belong to us ..." # re:lemonbar, wmcore.
         echo "All your sound belong to us ..." | dmenu $DMENU_FN $DMENU_NB $DMENU_NF $DMENU_SF $DMENU_SB
         pkill mpv
