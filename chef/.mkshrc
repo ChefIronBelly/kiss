@@ -53,7 +53,7 @@ alias g='git'
 alias gc='git commit -m "adds and tweaks"'
 alias view='imlib2_view'
 alias grab='imlib2_grab'
-alias stime='sudo ntpd -dnq -p pool.ntp.org'
+alias stime='sudo ntpd -dnq -p pool.ntp.org && hwclock -s -l'
 #alias rnet='sudo /etc/init.d/networking restart'
 
 PS1=""
