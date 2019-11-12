@@ -1,5 +1,6 @@
 ::sysinit:/lib/init/rc.boot
-::sysinit:/lib/init/rc.local
+::once:/bin/modprobe radeon modeset=1
+::once:/etc/rc.local
 ::restart:/sbin/init
 ::shutdown:/lib/init/rc.shutdown
 ::respawn:runsvdir -P /var/service 'log: ................................................................................................................................................................................................................................................................'
