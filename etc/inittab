@@ -1,5 +1,4 @@
 ::sysinit:/lib/init/rc.boot
-::once:/bin/modprobe radeon modeset=1
 ::once:/etc/rc.local
 ::restart:/sbin/init
 ::shutdown:/lib/init/rc.shutdown

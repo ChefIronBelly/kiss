@@ -19,6 +19,7 @@ do_disable_ipv6=true
 do_disable_ipv6_accept_ra=true
 do_cleanup_x11=true
 do_user_cpufreq=false
+do_radeon=true
 
 if $do_allow_user_ping ; then
 	# give groups 1000 - MAX access.
@@ -148,3 +149,7 @@ if $do_user_cpufreq ; then
 		chmod 664 "$i"
 	done
 fi
+if $do_radeon ; then
+	modprobe -r radeon
+	nodprobe radeon modeset=1
+fi	
