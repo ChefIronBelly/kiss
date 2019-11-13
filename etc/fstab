@@ -3,8 +3,8 @@
 #
 # <file system>        <dir>     <type>    <options>                        <dump> <pass>
 
-UUID="1113700e-7fbc-4144-804e-371f6cdcd918"	 /      ext4    defaults	 0      1
-#UUID="505c088f-b441-453e-8b57-f8bb624e7910"	none	swap	sw	0	0 
+UUID="1113700e-7fbc-4144-804e-371f6cdcd918"	 /      ext4    defaults	0	1
+UUID="9dc3da81-d0df-4001-846c-3c8fd559a685"	none	swap	sw		0	0 
 
 # commented out, done in the init 10/21
 # the following entries are required for proper system operation

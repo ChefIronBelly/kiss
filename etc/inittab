@@ -1,7 +1,7 @@
-::sysinit:/lib/init/rc.boot
+::sysinit:/etc/rc.boot
 ::once:/etc/rc.local
 ::restart:/sbin/init
-::shutdown:/lib/init/rc.shutdown
+::shutdown:/etc/rc.shutdown
 ::respawn:runsvdir -P /var/service 'log: ................................................................................................................................................................................................................................................................'
 
 tty1::respawn:/sbin/getty 38400 tty1
