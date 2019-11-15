@@ -1,7 +1,7 @@
 *termname:     	st-256color
 st.shell:       /bin/mksh
-*.font:		menlo-10
-*.boldFont:	menlo-10
+*.font:		DejaVuSansMono-10
+*.boldFont:	DejaVuSansMono-10
 !*.font:	-*-ohsnap.icons-medium-r-*-*-14-*-*-*-*-*-*-1
 !*.boldFont:	-*-ohsnap.icons-medium-r-*-*-14-*-*-*-*-*-*-1
 st.borderpx:          6
@@ -20,4 +20,4 @@ st.prompt_char:       $
 st.opacity:	      128
 
 ! color scheme
-#include </home/chef/.colors/nord>
+#include </home/chef/.colors/material-palenight>
