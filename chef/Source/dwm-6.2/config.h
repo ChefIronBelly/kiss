@@ -6,13 +6,13 @@ static const unsigned int snap      = 8;       /* snap pixel */
 static const unsigned int gappx     = 8;        /* gap pixel between windows */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "menlo:size=10" };
-static const char dmenufont[]       = "menlo:size=10";
-static const char col_gray1[]       = "#3B4252";
-static const char col_gray2[]       = "#3B4252";
-static const char col_gray3[]       = "#E5E9F0";
-static const char col_gray4[]       = "#3b4251";
-static const char col_cyan[]        = "#81A1C1";
+static const char *fonts[]          = { "DejaVuSansMono:size=10" };
+static const char dmenufont[]       = "DejaVuSansMono:size=10";
+static const char col_gray1[]       = "#32374d";
+static const char col_gray2[]       = "#32374d";
+static const char col_gray3[]       = "#676e95";
+static const char col_gray4[]       = "#32374d";
+static const char col_cyan[]        = "#959dcb";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
