@@ -17,12 +17,8 @@ export VISUAL=${EDITOR}
 #export PRINTER=change-this-to-a-printer
 
 # Set the search path for programs.
-PATH=$HOME/.bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+PATH=$HOME/.local/share/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 export PATH
-
-# from memory KISS PATH
-KISS_PATH=/var/db/kiss/repo/core:/var/db/kiss/repo/extra:/var/db/kiss/repo/xorg:/var/db/kiss/repo/community/community
-export KISS_PATH
 
 #Configure the shell to load .shrc at startup time.
 # This will happen for every shell started, not just login shells.

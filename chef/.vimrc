@@ -1,2 +1,2 @@
 syntax on
-color nord
+color base16-material-palenight
