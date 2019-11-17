@@ -1,2 +1,2 @@
 syntax on
-color base16-material-palenight
+color dracula

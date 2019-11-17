@@ -20,4 +20,4 @@ st.prompt_char:       $
 st.opacity:	      128
 
 ! color scheme
-#include </home/chef/.colors/material-palenight>
+#include </home/chef/.local/share/colors/dracula>
