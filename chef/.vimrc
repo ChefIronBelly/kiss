@@ -1,2 +1,4 @@
 syntax on
-color dracula
+set colorscheme = "dracula"
+
+

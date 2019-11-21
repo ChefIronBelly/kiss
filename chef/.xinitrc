@@ -15,7 +15,7 @@ xset +fp ~/.local/share/fonts
 xset fp rehash
 
 xrdb < ~/.Xdefaults
-xsidle.sh lock &
+#xsidle.sh lock &
 
 xsetroot -cursor_name left_ptr
 #hsetroot -fill ~/Pictures/walls/traffic.jpg -blur .5
@@ -23,4 +23,5 @@ xsetroot -cursor_name left_ptr
 xsetroot -solid "$(xrdb -query | awk '/\*.background/ {print $2}')"
 
 slstatus &
-dwm_start.sh
+#dwm_start.sh
+exec dwm
