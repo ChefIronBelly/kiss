@@ -38,7 +38,7 @@ fi
 
 if $do_static_ip ; then
 
-	if=enp3s0
+	if=eth0
 	ip=192.168.0.13
 	nm=255.255.255.0
 	gw=192.168.0.1

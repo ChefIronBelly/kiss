@@ -178,4 +178,8 @@ main() {
     log "Boot stage complete..."
 }
 
+for i in /etc/rc.modules /etc/rc.local ; do
+        [ -x "$i" ] && "$i"
+done
+
 main
