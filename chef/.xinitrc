@@ -11,7 +11,7 @@ xset +dpms
 xset -b
 xset s 1860
 
-xset +fp ~/.local/share/fonts
+xset +fp ~/.fonts
 xset fp rehash
 
 xrdb < ~/.Xdefaults

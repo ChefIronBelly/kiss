@@ -17,7 +17,7 @@ export VISUAL=${EDITOR}
 #export PRINTER=change-this-to-a-printer
 
 # Set the search path for programs.
-PATH=$HOME/.local/share/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+PATH=$HOME/.bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 export PATH
 
 #Configure the shell to load .shrc at startup time.

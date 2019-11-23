@@ -4,7 +4,7 @@
 red="\e[31m"
 grn="\e[32m"
 org="\e[33m"
-blu="\e[90m"
+blu="\e[34m"
 prp="\e[35m"
 cyn="\e[36m"
 wht="\e[37m"
@@ -101,7 +101,7 @@ printf "\e[37m░▒▓█▓▒░\e[0m\n\n"
 }
 
 clear
-printf "\n$prp$USER@$(hostname)$rst\n"
+printf "\n$red$USER@$(hostname)$rst\n"
 printf "\n"
 print-distro
 print-packages
@@ -111,8 +111,8 @@ print-shell
 print-term
 #printf "\n"
 print-font
-colors='material-palenight'
-printf "\e[90mCOLORS: \e[37m   $colors$rst\n"
+colors='dracula'
+printf "\e[34mCOLORS: \e[37m   $colors$rst\n"
 #printf "\n"
 print-disk
 print-mem

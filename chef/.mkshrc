@@ -61,3 +61,7 @@ PS1=""
  	0) PS1="${PS1}# ";;
  	*) PS1="${PS1}$ ";;
  esac
+ 
+cat ~/.cache/wal/sequences
+. "${HOME}/.cache/wal/colors.sh"
+alias dmen='dmenu_run -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"'
