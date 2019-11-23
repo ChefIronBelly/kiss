@@ -8,16 +8,7 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "DejaVuSansMono:size=10" };
 static const char dmenufont[]       = "DejaVuSansMono:size=10";
-static const char col_gray1[]       = "#282a36";
-static const char col_gray2[]       = "#282A36";
-static const char col_gray3[]       = "#BFBFBF";
-static const char col_gray4[]       = "#282A36";
-static const char col_cyan[]        = "#BD93F9";
-static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-};
+#include "/home/chef/.cache/wal/colors-wal-dwm.h"
 
 /* tagging */
 static const char *tags[] = { "term", "surf", "edit", "file", "misc" };
@@ -58,7 +49,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_start.sh", NULL };
-static const char *termcmd[]  = { "xst", NULL };
+static const char *termcmd[]  = { "st", NULL };
 static const char *surfcmd[]  = { "firefox", NULL };
 static const char *editcmd[]  = { "geany", NULL };
 static const char *somacmd[]  = { "dmenu_soma.sh", NULL };
