@@ -46,7 +46,7 @@ alias info='info.sh'
 alias todo='vim ~/todo'
 alias zzz='sudo pm-suspend'
 alias shootme='DISPLAY=:0 import -window root ~/Pictures/scrots/scrot-$(date +%m-%d-%Y-%H-%M-%S).png'
-alias free='top -n 1 | head -n 5 | tail -n 2'
+#alias free='top -n 1 | head -n 5 | tail -n 2'
 alias ping='ping -c3'
 alias mc='mc -a -b'
 alias g='git'
@@ -64,4 +64,3 @@ PS1=""
  
 cat ~/.cache/wal/sequences
 . "${HOME}/.cache/wal/colors.sh"
-alias dmen='dmenu_run -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"'
