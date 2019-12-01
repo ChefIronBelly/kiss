@@ -111,7 +111,7 @@ print-shell
 print-term
 #printf "\n"
 print-font
-colors='base16-material-palenight' # note look for pywal var.
+colors='base16-material' # note look for pywal var.
 printf "\e[34mCOLORS: \e[37m   $colors$rst\n"
 #printf "\n"
 print-disk
