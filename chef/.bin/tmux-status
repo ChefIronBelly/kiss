@@ -23,18 +23,20 @@
 # ░▓▓▓▓▓▓▓▓▓▓
 # ░░░░░░░░░░
 
+. $HOME/.cache/wal/colors.sh
+
 FULL=▓
 EMPTY=░
 EOL=▒ 
 SIZE=7
-C0="#292D3E"
-C1="#F07178"
-C2="#C3E88D"
-C3="#FFCB6B"
-C4="#82AAFF"
-C5="#C792EA"
-C6="#89DDFF"
-C7="#959DCB"
+C0="$color0"
+C1="$color1"
+C2="$color2"
+C3="$color3"
+C4="$color4"
+C5="$color5"
+C6="$color6"
+C7="$color7"
 
 draw()
 {
@@ -108,11 +110,11 @@ clock()
 	mtime=$(date +'%I:%M ')
 	myear=$(date +'%a %b %d,')
 	mday=$(date +'%d')
-	echo "#[fg=$C5]#[bg=$C0] $myear #[fg=$C6]$mtime#[fg=$C5]$EOL"
+	echo "#[fg=$C4]#[bg=$C0] $myear #[fg=$C4]$mtime#[fg=$C4]$EOL"
 }
 front()
 {
-	echo "#[bg=$C7]#[fg=0]▓░"
+	echo "#[bg=$C4]#[fg=0]▓░"
 }
 CPU_INFO=`cpu`
 RAM_INFO=`ram`

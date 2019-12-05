@@ -7,6 +7,3 @@ Xft.rgba: rgb
 Xft.lcdfilter: lcddefault
 Xcursor.theme: Adwaita
 Xcursor.size: 48
-
-! color scheme
-#include </home/chef/.colors/dracula>
