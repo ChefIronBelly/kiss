@@ -11,8 +11,8 @@ xset +dpms
 xset -b
 xset s 1860
 
-xset +fp ~/.local/share/.fonts
-xset fp rehash
+#xset +fp ~/.local/share/.fonts
+#xset fp rehash
 
 xrdb < ~/.Xdefaults
 #xsidle.sh lock &

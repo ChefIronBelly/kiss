@@ -8,5 +8,8 @@ Xft.lcdfilter: lcddefault
 Xcursor.theme: Adwaita
 Xcursor.size: 48
 
+*.font:         DejaVuSansMono-10
+*.boldFont:     DejaVuSansMono-10
+
 ! color scheme
 #include </home/chef/.cache/wal/colors.Xresources>
