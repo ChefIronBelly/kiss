@@ -1,4 +1,4 @@
 syntax on
-set colorscheme = "dracula"
+colorscheme base16-material
 
 
